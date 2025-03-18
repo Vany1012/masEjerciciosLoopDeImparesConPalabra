@@ -3,7 +3,7 @@ function loopDeImpares(numero, palabra){
         if ((i+numero)%2 != 0){
             console.log(palabra)
         } else{
-            console.log(`${numero+i}`)
+            console.log(i)
         };
 };
 loopDeImpares(5, 'impar');
